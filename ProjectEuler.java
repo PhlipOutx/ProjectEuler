@@ -42,6 +42,15 @@ public final class ProjectEuler {
 			case 1:		
 				Euler0001.solution();
 				break;
+			case 2:		
+				Euler0002.solution();
+				break;
+			case 3:		
+				Euler0003.solution();
+				break;
+			case 4:		
+				Euler0004.solution();
+				break;
 			default:	
 				System.out.println("Problem " + ProblemNumber + " is not yet implemented.");
 				break;
