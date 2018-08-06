@@ -36,7 +36,7 @@ public final class ProjectEuler {
 	public static void displayHelpText() {
 		System.out.println("\nProject Euler Problem Solutions");
 		System.out.println("  - by Philip Miller\n");
-		System.out.println(" % make run.java [Problem]\n");
+		System.out.println("% make run.java [Problem]\n");
 		System.out.println("See source code for an explaination of the problem and answer.\n");
 	}
 

@@ -10,6 +10,9 @@ build.java:
 run.java:
 	@java -cp java ProjectEuler $(filter-out $@,$(MAKECMDGOALS))
 
+run.go:
+	@go run golang/*.go $(filter-out $@,$(MAKECMDGOALS))
+
 clean:
 	find . -type f -name '*.class' -delete
 
